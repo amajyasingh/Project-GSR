@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+.collapse.navbar-collapse {
+    justify-content:end;
+  }
+  .nav-item{
+    margin-right: 50px;
+  }
+  .container{
+    margin-top: 30px;
+  }
+  .image-container {
+    position: relative;
+    overflow: hidden;
+  }
+  .image-container img{
+    width: 100%;
+    height:350px;
+  }
+  .animated-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    animation: fadeInUp 2s ease-in;
+    font-weight: 600;
+  }
+  .animated-text p{
+    color: rgb(255, 0, 0);
+  }
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translate(-50%, 100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(-50%, -50%);
+    }
+  }
+  #main h2{
+    color:red;
+    font-weight: 600;
+  }
+  #main img{
+    border-radius: 10%;
+    box-shadow: 0 0 10px 0 #da0f0f;
+  }
+  .row1 h3{
+    text-align: center;
+    color: rgb(45, 45, 138);
+    font-weight: 600;
+  }
+  .row1 p{
+    text-align: center;
+  }
+  .row p{
+    text-align: justify;
+  }
+  .row3{
+    text-align: center;
+
+  }
+  .row3 h3{
+    color: rgb(45, 45, 138);
+    font-weight: 500;
+  }
+  .accordion-item {
+    border: 1px solid #ff0000;
+    margin-bottom: 10px;
+  }
+  .accordion-button {
+    background-color: #f8f9fa;
+    color: #333;
+    font-weight: bold;
+    border: 1px solid #242222;
+  }
+  .accordion-button:hover {
+    background-color: #e9ecef;
+    color: #333;
+  }
+  .accordion-button.collapsed {
+    background-color: #fff;
+    color: #0b19e6;
+    font-weight: 600;
+  }
+  .accordion-body {
+    padding: 10px;
+    background-color: #fff;
+  }
+  .custom-list {
+    list-style: none;
+    padding-left: 1.5rem;
+  }
+  .custom-list li::before {
+    content: "\2713"; /* Unicode for checkmark symbol */
+    margin-right: 0.5rem;
+    color: #28a745; /* Green color for checkmark */
+    font-weight: 600;
+  }
+  #maintext h5{
+    color: #8d1010;
+    font-weight: 600;
+  }
+  #maintext img{
+    border-radius: 35%;
+  }
+
+ footer {
+    padding: 20px 0;
+    margin-left: 0px;
+  }

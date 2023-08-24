@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+.collapse.navbar-collapse {
+    justify-content:end;
+  }
+  .nav-item{
+    margin-right: 50px;
+  }
+  .container{
+    margin-top: 30px;
+  }
+  .row1 h3{
+    text-align: center;
+    color: rgb(45, 45, 138);
+    font-weight: 400;
+  }
+  .row p{
+    text-align: justify;
+  }
+  .row h5{
+    color: #0b19e6;
+    font-weight:600;
+  }
+  .row3{
+    text-align: center;
+
+  }
+  .row3 h2{
+    color:red;
+    font-weight: 600;
+  }
+  .row3 p{
+    color:  rgb(45, 45, 138);
+  }
+  .custom-list {
+    list-style: none;
+    padding-left: 1.5rem;
+  }
+  .custom-list li::before {
+    content: "\2713"; /* Unicode for checkmark symbol */
+    margin-right: 0.5rem;
+    color: #28a745; /* Green color for checkmark */
+    font-weight:800;
+  }
+ footer {
+    padding: 20px 0;
+    margin-left: 0px;
+  }
+  #Maintext h2{
+    color: red;
+    font-weight:600;
+
+  }
+  #image1{
+    border-radius: 20%;
+    box-shadow: 0 0 10px 0 #da0f0f;
+  }
+  #textimage h4{
+    color: #0b19e6;
+
+  }
+  #textimage img{
+    border-radius: 20%;
+    box-shadow: 0 0 10px 0 #da0f0f;
+
+  }
